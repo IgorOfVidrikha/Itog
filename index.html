@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="main.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <title>Генератор случайных цитат</title>
+  <style>
+    html, body {
+      height: 100%;
+      width: 100%;
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+
+    #quote-container {
+      width: 500px;
+      margin: 0 auto;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      background-color: #fff;
+    }
+
+    #quote {
+      font-size: 24px;
+      line-height: 1.5em;
+      margin-bottom: 20px;
+    }
+
+    #author {
+      font-size: 16px;
+      color: #666;
+    }
+
+    #button, #twitter-button {
+      display: inline-block;
+      padding: 10px 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    #button {
+      background-color: #337ab7;
+      color: #fff;
+      margin-right: 10px;
+    }
+
+    #twitter-button {
+      background-color: #1da1f2;
+      color: #fff;
+    }
+
+    body {
+      background-image: url("https://bipbap.ru/wp-content/uploads/2017/09/eiffel-tower-paris-france-eyfeleva-bashnya-7n74-scaled.jpg");
+      background-size: cover;
+      background-position: center;
+    }
+  </style>
+</head>
+<body>
+  <div id="quote-container">
+    <p id="quote"></p>
+    <p id="author"></p>
+    <button id="button">Сгенерировать цитату</button>
+    <button id="twitter-button">Твитнуть цитату</button>
+  </div>
+</body>
+</html>
